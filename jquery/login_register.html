@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login/Register</title>
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  </head>
+
+  <body>
+    <div data-role="page">
+      <div data-role="header" data-theme="b">
+        <h1>Gaurav Arts</h1>
+      </div>
+
+      <div data-role="navbar" data-grid="c">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about_us.html">About Us</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li>
+            <a href="login_register.html" class="ui-btn-active"
+              >Login/Register</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <div>
+          <center><h2>Register</h2></center>
+
+          <br />
+
+          <label for="name">Full Name: </label>
+          <input type="text" id="address" />
+          <br />
+
+          <label for="address">Address: </label>
+          <textarea name="address" id="address" cols="20" rows="7"></textarea>
+          <br />
+
+          <label for="pincode">Pincode: </label>
+          <input type="number" id="pincode" />
+          <br />
+
+          <label for="dob">DOB: </label>
+          <input type="date" id="dob" />
+          <br />
+
+          <label for="email">Email: </label>
+          <input type="email" id="email" />
+          <br />
+
+          <label for="password">Password: </label>
+          <input type="password" id="password" />
+          <br />
+
+          <label for="cpassword">Confirm Password: </label>
+          <input type="password" id="cpassword" />
+          <br />
+
+          <input type="submit" value="Register" />
+          <br />
+
+          <center>
+            <button><a href="login.html">Already have an Account: Login</a></button>
+          </center>
+        </div>
+      </div>
+
+      <div data-role="footer" data-theme="b">
+        <center>
+          <div id="quicklinks">
+            <h3>Quick Links</h3>
+            <a href="index.html">Home </a> <br /><br />
+            <a href="about_us.html">About Us</a> <br /><br />
+            <a href="products.html">Products</a> <br /><br />
+            <a href="login_register.html">Login/Register</a> <br /><br />
+          </div>
+
+          <p>Copyright 2023 | Gaurav Arts, All right reserved.</p>
+        </center>
+      </div>
+    </div>
+  </body>
+</html>
